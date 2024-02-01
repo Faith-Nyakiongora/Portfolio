@@ -13,7 +13,7 @@ function NavbarComp() {
           <Nav className="ms-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/experiences">Experiences</Nav.Link>
+            <Nav.Link href="/experience">Experience</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
