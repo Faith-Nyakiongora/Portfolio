@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Projects from "./Projects";
-import Experience from "./Experience";
+import Projects from "../Projects";
+import Experience from "../Experience";
 import NavScrollExample from "./components/NavbarComp";
 
 function App() {
