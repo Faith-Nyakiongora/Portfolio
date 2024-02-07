@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import github_icon from "../Assets/githubicon.png";
 import linkedin_icon from "../Assets/linkedin.png";
+import "../styles/Navbar.css";
 
 function NavbarComp() {
   return (
