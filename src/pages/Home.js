@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import cover_backg from "../Assets/canvabackg.png";
 import background_cover from "../Assets/background.jpg";
 import girl_ill from "../Assets/girlillustration.png";
 import "../styles/Home.css";
