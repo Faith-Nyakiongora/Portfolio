@@ -10,7 +10,7 @@ function NavbarComp() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="/">Faith Nyakiongora</Navbar.Brand>
+        <Navbar.Brand href="/">Fn.</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
