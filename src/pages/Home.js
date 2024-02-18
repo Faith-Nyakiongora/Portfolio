@@ -9,6 +9,7 @@ import { SiJavascript, SiFlask } from "react-icons/si";
 import { IoLogoPython } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io5";
 import { IoLogoHtml5 } from "react-icons/io";
+import { BiLogoGmail } from "react-icons/bi";
 
 function Home() {
   return (
@@ -117,6 +118,16 @@ function Home() {
                     className="icon-colour  home-social-icons"
                   >
                     <FaLinkedinIn />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="mailto:faithnyakiongora@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <BiLogoGmail />
                   </a>
                 </li>
               </ul>
