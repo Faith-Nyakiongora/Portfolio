@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
-.Home {
+.home-section {
   /* position: relative; */
   font-family: "Poppins", sans-serif;
 }
@@ -51,9 +51,133 @@
   }
 }
 
+/* Introduction Section */
+
 .home-header {
   color: aliceblue;
   padding-top: 80px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.girl-image {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.heading {
+  font-size: 2.4em;
+}
+
+.heading-name {
+  padding-left: 45px;
+  font-size: 2.5em;
+}
+
+.title {
+  color: #7beebc;
+  font-style: italic;
+}
+
+/* About Me Section */
+.home-about {
+  text-align: center;
+  padding-left: 45px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+/* Tech Stacks */
+
+.home-stacks {
+  color: aliceblue;
+  padding-top: 100px;
+}
+
+.stack-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.stack-icon {
+  font-size: 40px;
+  margin-right: 30px;
+  color: #7beebc;
+}
+
+.stack-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.stack-list li {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+/* .stack-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.stack-icon {
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.stack-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.stack-list li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+} */
+
+/* Find Me Sections */
+.home-about-social {
+  text-align: center;
+  padding-top: 100px;
+  color: aliceblue;
+}
+
+.home-social-icons {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+  background: rgba(255, 255, 255, 0.972);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.social-icons {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.icon-colour {
+  color: #59be92;
+}
+
+/* .home-about {
+  text-align: center;
+  padding-left: 45px;
+  font-size: 20px;
+}
+
+.home-header {
+  color: aliceblue;
+  padding-top: 80px !important;
 }
 
 .heading {
@@ -66,11 +190,14 @@
   padding-left: 45px !important;
 }
 
-.main-name {
-  color: #eebc7b;
+.title {
+  color: #7beebc;
+  font-style: italic;
 }
 
-.home-about-social {
+
+.home-about-social,
+.home-stacks {
   text-align: center !important;
   padding-top: 25px;
   color: aliceblue;
@@ -105,43 +232,4 @@
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
-}
-
-/* .girl-image {
-  position: absolute;
-  top: auto;
-  right: 5%;
-  /* transform: translateY(-80%, -80%); */
-/*width: 40%; /* Increase size */
-/*height: auto; /* Maintain aspect ratio */
-/* z-index: 1;  
 } */
-
-/* .about {
-  position: absolute;
-  top: 40%;
-  left: 5%; /* Align to the left */
-/*transform: translateY(-50%, -50%);
-  width: 40%;
-  height: auto;
-  z-index: 1; /* Ensure about section is on top */
-/*color: aliceblue;
-} */
-
-/* .overlay-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: bounce 1s infinite alternate; /* Apply the bounce animation */
-/* opacity: 0;
-} */
-
-/* @keyframes bounce {
-  0% {
-    transform: translate(-50%, -50%) translateY(0); /* Start position */
-/* }
-  /* 100% {
-    transform: translate(-50%, -50%) translateY(-20px); /* End position */
-/* } */
-/* } */
