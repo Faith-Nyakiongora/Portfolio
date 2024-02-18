@@ -32,15 +32,12 @@ function Home() {
                 </span>
               </h1>
 
-              <h1 style={{ paddingBottom: 50 }} className="heading-name">
+              <h2 style={{ paddingBottom: 30 }} className="heading-name">
                 I'M
                 <strong className="main-name"> Faith Nyakiongora</strong>
-              </h1>
+              </h2>
 
-              <h1 style={{ paddingLeft: 45 }} className="title">
-                {" "}
-                A Sofware Developer
-              </h1>
+              <h2 className="title"> A Software Developer</h2>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }} className="girl-image">
@@ -136,7 +133,6 @@ function Home() {
         </Container>
       </Container>
     </section>
-    // <div className="Home">
   );
 }
 
