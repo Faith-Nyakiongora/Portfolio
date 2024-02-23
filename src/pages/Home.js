@@ -16,12 +16,6 @@ function Home() {
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
-          <img
-            src={background_cover}
-            alt="background "
-            className="canvas-background"
-          />
-
           {/* Introduction Section........... */}
           <Row>
             <Col md={7} className="home-header">
