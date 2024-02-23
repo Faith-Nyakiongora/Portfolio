@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import background_cover from "../Assets/background.jpg";
 import girl_ill from "../Assets/girlillustration.png";
 import "../styles/Home.css";
 import { AiFillGithub } from "react-icons/ai";
