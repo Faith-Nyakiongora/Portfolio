@@ -22,7 +22,7 @@ function Projects() {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: "25rem" }}>
+          {/* <Card style={{ width: "25rem" }}>
             <Card.Img variant="top" src={portfolio_image} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -32,7 +32,7 @@ function Projects() {
               </Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </div>

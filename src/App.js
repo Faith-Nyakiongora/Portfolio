@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -9,7 +9,7 @@ import CoverImage from "./components/CoverImage";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <NavbarComp />
         <CoverImage />
