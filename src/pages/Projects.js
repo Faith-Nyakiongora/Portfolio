@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Projects.css";
 import { Card, Button } from "react-bootstrap";
 import portfolio_image from "../Assets/portfolioimage.png";
 
@@ -10,29 +11,33 @@ function Projects() {
         style={{ minHeight: "100vh" }}
       >
         <div className="col-lg-4">
-          <Card style={{ width: "25rem" }}>
-            <Card.Img variant="top" src={portfolio_image} />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
+          <Card className="transparent">
+            <a
+              href="https://faith-nyakiongora-portfolio.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="external-link"
+            >
+              <Card.Img variant="top" src={portfolio_image} />
+              <Card.Body className="text-format">
+                <Card.Title>My Portfolio Website</Card.Title>
+                <Card.Text>
+                  This is my personal website portfolio built with React and
+                  bootstrap CSS. It showcases my projects, skills, and
+                  experience. Feel free to explore and get in touch!
+                </Card.Text>
 
-          {/* <Card style={{ width: "25rem" }}>
-            <Card.Img variant="top" src={portfolio_image} />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card> */}
+                <a
+                  href="https://github.com/Faith-Nyakiongora/Portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="external-link"
+                >
+                  <Button className="transparent-btn">Github</Button>{" "}
+                </a>
+              </Card.Body>
+            </a>
+          </Card>
         </div>
       </div>
     </div>

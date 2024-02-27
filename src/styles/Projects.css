@@ -1,0 +1,52 @@
+/* -------Projects CSS ------ */
+
+.external-link {
+  text-decoration: none !important; /* Remove underline */
+}
+
+.external-link:hover .transparent-btn {
+  background-color: #7beebc; /* Change background color of button on hover */
+  color: black; /* Change text color of button on hover */
+}
+
+.transparent-btn {
+  background-color: transparent !important;
+  border: 2px solid #7beebc !important;
+  color: #7beebc !important;
+  border-radius: 20px !important;
+  padding: 5px 10px !important; /* Adjust padding as needed */
+  font-size: 16px !important; /* Adjust font size as needed */
+}
+
+.transparent-btn:hover {
+  background-color: #7beebc !important;
+  color: black !important;
+}
+
+.transparent {
+  background: transparent !important ;
+  width: auto;
+  height: auto;
+  box-shadow: 0 3px 7px 1px rgba(123, 238, 188, 0.5) !important;
+}
+
+.transparent:hover {
+  border-color: #5c927b !important;
+  /* background-color: #7beebc !; */
+}
+
+.text-format {
+  color: aliceblue !important;
+}
+
+/*.transparent-btn {
+  background-color: transparent;
+  border: 2px solid #7beebc;
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.transparent-btn:hover {
+  background-color: #7beebc;
+  color: black;
+} */
