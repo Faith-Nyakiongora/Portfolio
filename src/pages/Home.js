@@ -33,7 +33,7 @@ function Home() {
               <h2 className="title"> A Software Developer</h2>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }} className="girl-image">
+            <Col md={5} style={{ paddingBottom: 10 }} className="girl-image">
               <img
                 src={girl_ill}
                 alt="girl illustration"

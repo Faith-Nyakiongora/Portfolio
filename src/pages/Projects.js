@@ -6,10 +6,15 @@ import portfolio_image from "../Assets/portfolioimage.png";
 function Projects() {
   return (
     <div className="container-fluid">
-      <div
-        className="row justify-content-center align-items-center"
-        style={{ minHeight: "100vh" }}
-      >
+      <div className="heading">
+        <h1>
+          <strong>My Recent Works</strong>
+        </h1>
+        <p style={{ fontSize: "20px" }}>
+          Here are a few projects I've worked on recently.
+        </p>
+      </div>
+      <div className="center-card" style={{ minHeight: "100vh" }}>
         <div className="col-lg-4">
           <Card className="transparent">
             <a

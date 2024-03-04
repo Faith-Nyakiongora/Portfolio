@@ -28,6 +28,7 @@
   width: auto;
   height: auto;
   box-shadow: 0 3px 7px 1px rgba(123, 238, 188, 0.5) !important;
+  margin-top: 0px;
 }
 
 .transparent:hover {
@@ -38,6 +39,26 @@
 .text-format {
   color: aliceblue !important;
 }
+
+.heading {
+  color: aliceblue;
+  margin-top: 100px;
+}
+
+.center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Ensure the card is vertically centered */
+}
+
+/* You may also need to adjust the width of the column to control the size of the card */
+.col-lg-4 {
+  width: 50%; /* Adjust the width as needed */
+}
+/* .container-fluid {
+  padding-top: 20px;
+} */
 
 /*.transparent-btn {
   background-color: transparent;
