@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import NavbarComp from "./components/NavbarComp";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import CoverImage from "./components/CoverImage";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );

@@ -1,0 +1,26 @@
+.footer p {
+  color: rgb(202, 210, 216);
+  font-size: 15px;
+  margin: auto;
+}
+
+/* .footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+} */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(47, 52, 56, 0.7);
+  padding: 20px 0 20px;
+  /* text-align: center; */
+}
+
+.copywrite {
+  text-align: right;
+}

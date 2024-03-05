@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import github_icon from "../Assets/githubicon.png";
 import linkedin_icon from "../Assets/linkedin.png";
+import { MdOutlineMail } from "react-icons/md";
 import "../styles/Navbar.css";
 
 function NavbarComp() {
@@ -26,6 +27,11 @@ function NavbarComp() {
           <Nav>
             <Nav.Link href="https://www.linkedin.com/in/faith-nyakiongora-806888112/">
               <img src={linkedin_icon} alt="linkedin icon" />
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="mailto:faithnyakiongora@gmail.com">
+              <MdOutlineMail size={28} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -14,7 +14,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
       </div>
-      <div className="center-card" style={{ minHeight: "100vh" }}>
+      <div className="center-card">
         <div className="col-lg-4">
           <Card className="transparent">
             <a
